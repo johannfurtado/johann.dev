@@ -31,4 +31,11 @@
     .btn
         align-self: start
         @include mixins.btn
-        
+
+    // Responsividade para telas menores que 480px
+    @media screen and (max-width: 480px)
+        h2
+            flex-direction: column
+            align-items: flex-start
+            &::after
+                width: 100%

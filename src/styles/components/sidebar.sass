@@ -17,16 +17,37 @@
         border-radius: variables.$container-border-radius
         position: absolute
         top: -3rem
-        
+
     .title
         color: variables.$text-color-secondary
         background-color: variables.$bg-color-secondary
         border-radius: variables.$card-border-radius
         margin-top: 12rem
         padding: .8rem 1.2rem
-        &:hover 
+        &:hover
             background: variables.$gradient
             color: variables.$text-color
 
     .btn
         @include mixins.btn
+
+    // Responsividade para telas menores que 768px
+    // @media screen and (max-width: 768px)
+    //     padding: 2rem 0
+
+    //     img
+    //         max-width: 40%
+    //         top: -2rem
+
+    //     .title
+    //         margin-top: 8rem
+
+    // Responsividade para telas menores que 480px
+    @media screen and (max-width: 480px)
+        padding: 3rem 0
+
+        img
+            max-width: 30%
+
+        .title
+            margin-top: 4rem
