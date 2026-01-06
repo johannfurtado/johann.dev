@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import MainContent from './components/MainContent'
 import Sidebar from './components/Sidebar'
-import './styles/components/App.sass'
+import './styles/components/app.sass'
 
 function App() {
   const [typedText, setTypedText] = useState('')
