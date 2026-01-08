@@ -21,6 +21,9 @@ import {
     SiVite,
     SiMysql,
     SiOpenai,
+    SiPrisma,
+    SiJira,
+    SiTrello,
 } from 'react-icons/si'
 import { FaHtml5, FaCss3Alt, FaWindows, FaLinux, FaCode, FaJava } from 'react-icons/fa'
 
@@ -49,6 +52,7 @@ const Skills = () => {
         { name: 'Laravel', category: 'Back End', icon: SiLaravel, color: '#FF2D20' },
         { name: 'PostgreSQL', category: 'Back End', icon: SiPostgresql, color: '#4169E1' },
         { name: 'MySQL', category: 'Back End', icon: SiMysql, color: '#4479A1' },
+        { name: 'Prisma', category: 'Back End', icon: SiPrisma, color: '#2D333B' },
 
         // Mobile
         { name: 'React Native', category: 'Mobile', icon: SiReact, color: '#61DAFB' },
@@ -61,6 +65,8 @@ const Skills = () => {
         { name: 'Figma', category: 'Ferramentas e Outros', icon: SiFigma, color: '#F24E1E' },
         { name: 'VS Code', category: 'Ferramentas e Outros', icon: SiVisualstudiocode, color: '#007ACC' },
         { name: 'Vite', category: 'Ferramentas e Outros', icon: SiVite, color: '#646CFF' },
+        { name: 'Jira', category: 'Ferramentas e Outros', icon: SiJira, color: '#0052CC' },
+        { name: 'Trello', category: 'Ferramentas e Outros', icon: SiTrello, color: '#0052CC' },
 
         // IA
         { name: 'ChatGPT', category: 'IA', icon: SiOpenai, color: '#10A37F' },

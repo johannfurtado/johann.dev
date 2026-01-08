@@ -6,15 +6,22 @@ const Projects = () => {
         {
             title: 'SGP - Sistema de Gestão Prisional',
             company: 'Infocensus Tecnologia',
-            description: 'Trabalho como desenvolvedor em uma equipe de 5 desenvolvedores, construindo um sistema de gestão prisional usando Laravel, React e PostgreSQL.',
+            description: 'Trabalho como desenvolvedor em uma equipe de 4 desenvolvedores, construindo um sistema de gestão prisional usando Laravel, React e PostgreSQL.',
             skills: ['Laravel', 'React', 'PostgreSQL', 'Scrum', 'Kanban', 'GitFlow'],
             // github: '#',
             // demo: '#'
         },
         {
+            title: 'DiLlamas',
+            company: 'johann.dev',
+            description: 'Estou desenvolvendo solo uma rede social de dilemas utilizando Next.js, Tailwind CSS, Prisma e PostgreSQL.',
+            skills: ['Next.js', 'Tailwind CSS', 'Prisma', 'PostgreSQL', 'Trello'],
+            demo: 'https://www.dillamas.com/'
+        },
+        {
             title: 'Site - Casa de Acolhimento de Amor de Felipe',
-            company: 'Infocensus Tecnologia',
-            description: 'Trabalhei como desenvolvedor solo, construindo um site para a Casa de Acolhimento de Amor de Felipede maneira totalmente gratuita.',
+            company: 'johann.dev',
+            description: 'Trabalhei como desenvolvedor solo, construindo um site para a Casa de Acolhimento de Amor de Felipe de maneira totalmente gratuita.',
             skills: ['HTML', 'CSS', 'JavaScript', 'Figma'],
             demo: 'https://www.casaamordefelipe.org.br/'
         },

@@ -35,6 +35,9 @@ const About = () => {
                                 <li>PostgreSQL</li>
                                 <li>PHP</li>
                                 <li>Vue.js</li>
+                                <li>Next.js</li>
+                                <li>Tailwind CSS</li>
+                                <li>Jira</li>
                             </ul>
                         </div>
                     </div>
