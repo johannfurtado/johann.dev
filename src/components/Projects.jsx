@@ -4,22 +4,23 @@ import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'
 const Projects = () => {
     const projects = [
         {
-            title: 'MyHomeGame',
-            company: 'Projeto em desenvolvimento',
-            description: 'Plataforma de gestão de poker criada para organizar partidas, jogadores e a operação de uma comunidade de poker.',
-            skills: ['Gestão de produto', 'Sistemas web', 'Poker']
+            title: 'SGP - Sistema de Gestão Prisional',
+            company: 'Infocensus Tecnologia',
+            description: 'Trabalho como desenvolvedor em uma equipe de 4 desenvolvedores, construindo um sistema de gestão prisional usando Laravel, React e PostgreSQL.',
+            skills: ['Laravel', 'React', 'PostgreSQL', 'Scrum', 'Kanban', 'GitFlow']
         },
         {
             title: 'PeopleSmart',
             company: 'Infocensus Tecnologia',
             description: 'Sistema de clima organizacional conectado ao ecossistema da Infocensus, apoiando a coleta e a gestão de percepções das equipes.',
-            skills: ['Clima organizacional', 'Gestão de pessoas', 'Infocensus']
+            skills: ['Laravel', 'React', 'PostgreSQL', 'Scrum', 'Kanban', 'GitFlow']
         },
         {
-            title: 'SGP - Sistema de Gestão Prisional',
-            company: 'Infocensus Tecnologia',
-            description: 'Trabalho como desenvolvedor em uma equipe de 4 desenvolvedores, construindo um sistema de gestão prisional usando Laravel, React e PostgreSQL.',
-            skills: ['Laravel', 'React', 'PostgreSQL', 'Scrum', 'Kanban', 'GitFlow']
+            title: 'MyHomeGame',
+            company: 'johann.dev',
+            description: 'Plataforma de gestão de poker criada para gerenciar a operação de um homegame de poker.',
+            skills: ['Next.js', 'Drizzle', 'PostgreSQL', 'Gestão', 'Poker'],
+            demo: 'https://www.myhomegame.com.br/'
         },
         {
             title: 'DiLlamas',
